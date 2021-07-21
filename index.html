@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORLD ANIME - Trang chủ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="divHead">
+
+        <div id="divUser">
+            <p>Tên đăng nhập: <input type="text" name="" id="user"></p>
+        </div>
+
+        <div id="divPass">
+            <p>Mật khẩu: <input type="password" name="" id="passWord"></p>
+        </div>
+
+        <div id="divLogin">
+            <form action="trangchu.html">
+                <input type="button" id="logIn" value="ĐĂNG NHẬP" onclick="login()">
+            </form>
+        </div>
+
+        <div id="divCreate">
+            <h2>Đăng ký</h2>
+
+            <h4>Nhanh chóng và dễ dàng</h4>
+
+            <div id="divName">
+                <p>Họ: <input type="text" id="firstName"> Tên: <input type="text" id="lastName"></p>
+            </div>
+
+            <div id="divEmail">
+                <p>Email: <input type="text" id="emailOrNumber"></p>
+            </div>
+
+            <div id="divMk">
+                <p>Mật khẩu: <input type="password" id="newPassWord"> </p>
+            </div>
+
+            <div id="divDate">
+                <p>Ngày sinh: <input type="text" id="day"> <input type="text" id="month"> <input type="text" id="year">
+                </p>
+            </div>
+
+            <div id="divButton">
+                <input type="button" name="" id="create" value="Đăng ký"
+                    onclick="addFirstName(), addLastName(), addEmailOrNumber(), addPassWord(), addDay(), addMonth(), addYear(), createActive()">
+            </div>
+
+        </div>
+</body>
+<script src="source.js"></script>
+
+</html>

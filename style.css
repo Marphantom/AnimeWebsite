@@ -1,0 +1,177 @@
+body {
+    background-image: url(source/naruto1.jpg);
+    background-size: cover;
+}
+
+#divHead{
+    float: right;
+    background-image: url(source/Untitled.png);
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 230);
+    width: 100%;
+    height: 130px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+#divUser{
+    text-align: right;
+    width: 100%;
+    height: 20px;
+    font-size: 18px;
+    color: red;
+}
+
+#divUser p {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#divUser input{
+    margin-left: 10px;
+    margin-right: 3px;
+    width: 180px;
+    height: 20px;
+    border-radius:5px 5px 5px 5px;
+}
+
+#divPass {
+    text-align: right;
+}
+
+#divPass p{
+    font-size: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
+
+#divPass input{
+    margin-left: 46px;
+    margin-right: 3px;
+    width: 180px;
+    height: 20px;
+    border-radius:5px 5px 5px 5px;
+}
+
+#divLogin{
+    text-align: right;
+}
+
+#divLogin input{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    border-radius:5px 5px 5px 5px;
+    font-weight: bold;
+    color: cornsilk;
+    margin-right: 90px;
+    cursor: pointer;
+}
+
+#divCreate{
+    float: right;
+    width: 700px;
+}
+
+#divCreate h2{
+    color: blue;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 155px;
+    text-align: right;
+}
+
+#divCreate h4{
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 120px;
+}
+
+#divName{
+    margin-right: 20px;
+}
+
+#divName p {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color:red;
+    margin-bottom: 30px;
+}
+#divName p input{
+    border-radius: 5px 5px 5px 5px;
+    width: 180px;
+    height: 30px;
+}
+
+#divEmail {
+    margin-right: 20px;
+}
+
+#divEmail p{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+    margin-bottom: 30px;
+}
+
+#divEmail p input{
+    width: 418px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#divMk{
+    margin-right: 20px;
+}
+
+#divMk p{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+    margin-right: 10;
+    margin-bottom: 30px;
+}
+
+#divMk p input{
+    width: 418px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#divDate {
+    margin-right: 20px;
+}
+#divDate p{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+    margin-bottom: 30px;
+}
+
+#divDate p input{
+    width: 130px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#divButton input{
+    float: right;
+    margin-top: 30px;
+    margin-right: 155px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    color: whitesmoke;
+    background-color: blue;
+    font-size: 30px;
+    cursor: pointer;
+}

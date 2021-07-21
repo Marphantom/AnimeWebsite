@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(204, 238, 255);
+}
+
+#divHead{
+    background-color: rgb(255, 255, 230);
+    width: 100%;
+    height: 130px;
+    background-image: url(source/Untitled.png);
+    background-repeat: no-repeat;
+}
+
+#divBar{
+    width:100%;
+    height:70px;
+    background-color:#feffa8;
+    float:left;
+}
+
+#divBar ul{
+    list-style:none; 
+    float:left;
+}
+
+#divBar ul li{
+    float:left;
+    padding-left:10px;
+    position:relative;
+}
+
+#divBar ul li ul{
+    position:absolute;
+    display:none
+}
+
+#divBar ul li:hover ul{
+    display:block; 
+}
+
+#divBar ul li ul li{
+    width:120px;
+    padding-left:8px;
+    background-color:#08e3f3;
+    border-bottom:1px dotted #7a1714;
+}
+
+#divBar ul li a{
+    font-size:15px; 
+    text-decoration:none;
+    display:block;
+    padding:.3em 7px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#divBar ul li a:hover{
+    color:white;
+    background-color:green;
+    border-radius:0px 0px 3px 3px;
+}
+
+#divBodyTop{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(243, 239, 183);
+}
+
+#divImg1 img{
+    width: 33.24%;
+    height: 230px;
+}
+
+#divBody{
+    text-align: center;
+}
+
+#divBody p{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#divBody p iframe{
+    width: 900px;
+    height: 600px;
+}
+
+#divSlime{
+    text-align: center;
+}
+
+#divSlime p{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#divSlime p iframe{
+    width: 900px;
+    height: 600px;
+}
+
+#divDldl{
+    text-align: center;
+}
+
+#divDldl p{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#divDldl p iframe{
+    width: 900px;
+    height: 600px;
+}
+
+
